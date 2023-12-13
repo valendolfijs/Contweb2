@@ -1,0 +1,703 @@
+@import url("https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Lato&family=Montserrat:wght@600&family=Sedgwick+Ave&family=Space+Grotesk:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Kosugi+Maru&family=Lato&family=Montserrat:wght@600&family=Nunito:ital,wght@1,300&family=Sedgwick+Ave&family=Space+Grotesk:wght@300&display=swap");
+
+.body-de-inicio {
+  background-image: url(../IMAGENES/fiesta2.jpg..jpg);
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: inherit;
+  margin: 0;
+  font-size: 16px;
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: "Kosugi Maru", sans-serif;
+  font-weight: normal;
+  font-size: 6vw;
+  color: white;
+  position: absolute;
+  top: 45%;
+  left: 25%;
+}
+span {
+  color: red;
+}
+
+.titulo-principal {
+  font-family: "Kosugi Maru", sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  left: 1%;
+  padding: 2%;
+  animation: rotate;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  cursor: pointer;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+.h3 {
+  font-family: "Kosugi Maru", sans-serif;
+  font-size: 2vw;
+  color: white;
+  position: absolute;
+  top: 60%;
+  left: 35%;
+}
+
+h4 {
+  font-family: "Kosugi Maru", sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  color: white;
+  position: absolute;
+  top: 85%;
+  left: 2%;
+  cursor: pointer;
+}
+h4:hover {
+  color: #670e0e;
+}
+.navbar {
+  font-family: "Kosugi Maru", sans-serif;
+  color: #7d1315;
+  font-weight: normal;
+  font-size: 23px;
+  top: 0%;
+  left: 3%;
+  justify-content: baseline;
+  display: flex;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 1%;
+  left: 58%;
+}
+
+.navbar li {
+  display: inline;
+  margin-right: 40px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #670e0e;
+}
+
+.contenido {
+  padding: 20px;
+}
+
+.contact {
+  font-family: "Kosugi Maru", sans-serif;
+  color: white;
+  position: absolute;
+  top: 185%;
+  font-size: 3.5vw;
+  margin-right: 10px;
+  display: inline-block;
+  right: 1%;
+  left: 30%;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  top: 200%;
+  font-size: 3vw;
+  text-align: center;
+  margin-bottom: 0%;
+}
+footer i{
+    color: white;
+}
+footer i:hover{
+    color: #500d0e;
+    
+
+}
+.countdown {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  font-family: "Kosugi Maru", sans-serif;
+  margin-top: 40%;
+}
+
+.countdown h1 {
+  margin-bottom: 20px;
+}
+
+.countdown-item {
+  display: inline-block;
+  margin: 0 10px;
+  text-align: center;
+}
+
+.countdown-item span {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.countdown-item p {
+  margin: 0;
+}
+@media (max-width: 768px) {
+  .countdown-item {
+    display: inline-block;
+    margin-top: 65%;
+  }
+}
+@media (max-width: 480px) {
+  .countdown-item {
+    display: inline-flex;
+    margin-left: 1%;
+  }
+}
+
+.seccion {
+  width: 100%;
+  height: 80vh;
+  box-sizing: border-box;
+}
+
+#events {
+  background: #500d0e;
+  font-family: "Kosugi Maru", sans-serif;
+  color: white;
+  font-size: 3vw;
+  text-align: center;
+  padding: 1% 0 0 0;
+  width: 100%;
+  min-height: 100vh;
+}
+
+img {
+  width: 30%;
+  height: 100%;
+
+  transform-origin: center;
+  transition: 0.5s;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+  margin-top: 10rem;
+}
+.container:hover img {
+  opacity: 0.4;
+}
+.container img:hover {
+  transform: perspective(800px) rotateY(0deg);
+  opacity: 1;
+}
+
+.seccion {
+  background-color: lightgray; 
+  padding: 20px; 
+  border-radius: 10px; 
+}
+
+.body-de-set {
+  background-color: black;
+}
+
+iframe {
+  margin-top: 10%;
+}
+
+.listen {
+  font-family: "Kosugi Maru", sans-serif;
+  color: white;
+  font-weight: normal;
+  font-size: 2vw;
+  position: absolute;
+  top: 15%;
+  left: 43%;
+}
+
+/* Estilos para el botón de compra */
+.comprar-btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20rem;
+}
+
+.comprar-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #670e0e;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.comprar-btn:hover {
+  background-color: #500d0e;
+}
+
+.text {
+  font-family: "Kosugi Maru", sans-serif;
+  color: white;
+  font-weight: normal;
+  font-size: 3vw;
+  position: absolute;
+  text-align: center;
+  top: 5%;
+  left: 36%;
+}
+
+
+.hidden {
+  display: none;
+}
+
+.thanks {
+  font-family: "Kosugi Maru", sans-serif;
+  color: white;
+  font-weight: normal;
+  font-size: 5vw;
+  position: absolute;
+  text-align: center;
+  top: 30%;
+  left: 22%;
+}
+
+.imagen-entrada {
+  width: 60%;
+  height: 14rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0%;
+  flex: 1; 
+  max-width: 300px; 
+}
+
+.imagen-entrada i {
+  position: absolute;
+  font-size: 32px;
+  opacity: 0;
+}
+
+.imagen-entrada:hover i {
+  transition: all 0.8s ease;
+  opacity: 1;
+}
+
+.imagen-entrada img {
+  width: 100%;
+  height: 30rem;
+  border-radius: 8px;
+  transition: all 0.8s ease;
+}
+
+.imagen-entrada:nth-child(3):hover img,
+.imagen-entrada:nth-child(4):hover img,
+.imagen-entrada:nth-child(5):hover img {
+  opacity: 0.6;
+}
+@media screen and (max-width: 600px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  
+    .imagen-entrada {
+      width: 68%; 
+      height: 6rem;
+    }
+  }
+
+.btn-comprar {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 0.5rem 1.8rem;
+    background-color: #670e0e;
+    border-radius: 8px;
+    transition: all 0.8s ease;
+    opacity: 0;
+    border: none;
+    position: absolute;
+    z-index: 300;
+}
+
+.btn-comprar:hover {
+    background-color: #500d0e;
+}
+
+.imagen-entrada:nth-child(1):hover .btn-comprar {
+    opacity: 1;
+}
+
+.imagen-entrada:nth-child(2):hover .btn-comprar {
+    opacity: 1;
+}
+
+/* FORM DE COMPRA DE ENTRADA */
+.compras-de-entrada.fa-xmark {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.compras-de-entrada {
+    display: none;
+    position: fixed;
+    width: 48%;
+    height: max-content;
+    background-color: rgba(255,255,255, 1);
+    z-index: 500;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+.compras-de-entrada span {
+    /* close */
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    font-size: 2rem;
+    color: #000;
+    cursor: pointer;
+
+}
+
+
+.compras-de-entrada form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.compras-de-entrada form input {
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    width: 70%;
+}
+
+.compras-de-entrada form input:focus {
+    outline: none;
+}
+
+.compras-de-entrada form select {
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    width: 70%;
+}
+
+.compras-de-entrada form select:focus {
+    outline: none;
+}
+
+.compras-de-entrada form button {
+    border: none;
+    border-radius: 12px;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    width: 70%;
+    background-color: #670e0e;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+/* modal de confirmacion */
+.confirmacionDeCompra {
+    display: none;
+    /* center */
+    position: fixed;
+    z-index: 500;
+    width: 48%;
+    height: max-content;
+    background-color: rgba(255,255,255, 1);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    border-radius: 30px;
+}
+
+.confirmacionDeCompra span {
+    /* close */
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    font-size: 2rem;
+    color: #000;
+    cursor: pointer;
+
+}
+
+.confirmacionDeCompra-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.confirmacionDeCompra-content .confirmacionDeCompra-header{
+    /* title */
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.confirmacionDeCompra-header h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #000;
+    animation: none;
+}
+.confirmacionDeCompra-body{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #000;
+    animation: none;
+    text-align: center;
+}
+
+.confirmacionDeCompra-footer button {
+    border: none;
+    border-radius: 12px;
+    padding: 0.6rem 1.3rem;
+    margin-bottom: 1rem;
+    width: 70%;
+    background-color: #670e0e;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+
+}
+
+#video {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    background-color: rgba(0,0,0, 0.85);
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+#momentos-insidious{
+    position: relative;
+  background:black;
+  font-family: "Kosugi Maru", sans-serif;
+  color: white;
+  font-size: 3vw;
+  text-align: center;
+  padding: 1% 0 0 0;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.slider-container {
+    min-height: 20rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(0%, 15%);
+    overflow-x: hidden;
+    white-space: nowrap;
+    animation: scroll 10s linear infinite; 
+}
+
+.slider-item {
+    display: none;
+    width: 100%;
+    text-align: center;
+    opacity: 0; 
+    transition: opacity 1s ease-in-out; 
+}
+
+.show-slide {
+    display: flex; 
+    opacity: 1; 
+}
+
+.slider-item img {
+    width: 23%; 
+    margin: 1%;
+}
+
+
+.slider-arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 8px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.left-arrow {
+    left: 10px;
+}
+
+.right-arrow {
+    right: 10px;
+}
+@media screen and (max-width: 768px) {
+    
+    .slider-container {
+        min-height: 15rem;
+    }
+
+    .slider-item img {
+        width: 100%; 
+    }
+}
+@media screen and (max-width: 768px) {
+    .slider-container {
+        animation: infinite;
+    }
+}
+
+
+/* formulario de contacto */
+
+#contact {
+  background:black;
+}
+
+.form-contact {
+    max-width: 90%;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #500d0e; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+  
+form h2 {
+    text-align: center;
+    color: white; 
+    font-family: "Kosugi Maru", sans-serif;
+    font-size: 2rem;
+}
+  
+form p {
+    text-align: center;
+    color: white; 
+    font-size: 23px;
+}
+  
+.form-group {
+    margin-bottom: 20px;
+}
+  
+.form-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: white;
+}
+  
+.form-control {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+}
+  
+.btn-primary {
+    background-color: white; 
+    color: #500d0e; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.btn-primary:hover {
+    background-color: #0056b3; 
+}
+
+.body-de-set{
+    overflow-x: hidden;
+}
+
+@media (max-width: 1000px) {
+  #events {
+    height: 100%;
+    padding-bottom: 2rem;
+  }
+
+  #events .container {
+    /* padding-top: 2rem; */
+    display: grid;
+    /* first row 3 columns, second row 2 columns */
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1rem;
+  }
+
+  #events .container .imagen-entrada {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 490px) {
+#events .container {
+  grid-template-columns: repeat(2, 1fr);
+}
+} 
+  
+  
